@@ -1,0 +1,141 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/* HEADER START */
+.header{
+	margin: 0;
+}
+.logo{
+	width: 40%;
+	float: left;
+	position: relative;
+}
+.logo img{
+	margin: 0;
+	float: left;
+}
+.logo h1{
+	margin: 0;
+	color: #737373;
+	font-size: 24px;
+	font-family: arial;
+	display: block;
+	text-transform: uppercase;
+	position: absolute;
+	top: 42%;
+	left: 24%;
+	transform: translate(-42%, -24%);
+}
+
+.social{
+	width: 60%;
+	float: left;
+	
+}
+
+
+.social ul{
+	text-align: right;
+
+}
+.social ul li{
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+
+
+}
+.social ul li .cursor{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+/* HEADER END */
+
+/* NEV STart */
+
+.nev .container ul {
+	margin: 0;
+	padding: 0;
+}
+.nev .container ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.nev .container ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #444;
+	padding: 10px;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	transition: all .5s ease;
+}
+.nev .container ul li a:hover{
+	color: lightgreen;
+}
+.nev .container ul li a:first-child{
+	padding-left: 0;
+}
+/* NEV END */
+
+/* SLIDER START */
+.slider{
+	background: url(../images/s.png);
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 10em;
+
+	
+}
+
+.slider .container img{
+	display: block;
+	margin: 0 auto;
+	transform: translateY(5em);
+	
+}
+/* SLIDER END */
+
+
+
+/* MID_TEXT START */
+.mid_text {
+
+}
+.mid_text .container p{
+	text-align: center;
+	text-transform: uppercase;
+	color: #777;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 60px;
+
+}
+.button{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.mid_text .container a{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	background-color: seagreen;
+	color: #fff;
+	font-size: 13px;
+}
+/* MID_TEXT END */
